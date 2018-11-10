@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.container {
+  padding: 30px;
+  margin: 0% 20% 0 20%;
+}
+
+.container a {
+  text-decoration: none;
+  padding: 10px;
+  background-color: black;
+  color: aliceblue;
+}
+
+input {
+  padding: 10px;
+  font-size: 12px;
+}
+
+button {
+  margin-top: 10px;
+  padding: 10px;
+  font-size: 16px;
+  background-color: darkcyan;
+  color: aliceblue;
+  border: none;
+  font-weight: bold;
+}
+
+.books {
+  padding: 15px;
+  border: 1px dotted gray;
+}
+
+.books-form {
+  border: 1px dotted gray;
+  padding: 10px;
+}
+
+.books-form-input {
+  padding: 10px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.books-form-button {
+  padding: 10px;
+}
+
+.books-form-input label {
+  font-weight: bold;
+}
+
+.books-list {
+  margin-top: 20px;
+}
+
+.books-item {
+  margin-bottom: 10px;
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+}
+
+.books-item-button {
+  padding: 10px;
+  background-color: brown;
+  color: aliceblue;
+}
